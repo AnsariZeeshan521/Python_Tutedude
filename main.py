@@ -1,4 +1,5 @@
-with open("sample.txt",'a') as file1:
-    writeable = file1.write("\nyoyo")
+name = "harry","marry","gerry"
 
-    print(writeable)
+print('-'.join(name))
+
+print(f"Price: {10:.2f}")
